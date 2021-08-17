@@ -46,7 +46,14 @@ section {
   font-size: 20px;
   background-color: rgb(45, 117, 96);
   border-radius: 3px;
+  translate: 0.3s;
 }
+
+.match button:hover {
+  transform: translateY(-0.24em);
+  box-shadow: 0 0.5em 0.5em -0.4em #075833;
+}
+
 .match {
   position: absolute;
   top: 50%;
